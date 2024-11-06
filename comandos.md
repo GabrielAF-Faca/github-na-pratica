@@ -15,12 +15,21 @@ git add nome-do-arquivo
 
 ou 
 
-git add .
-
-para enviar todos os arquivos
+git add . <!--commita todos os arquivos-->
 
 ## fazendo o envio
 git commit -m "mensagem"
 
 ## subindo para o servidor
 git push
+
+ou 
+
+git push -u origin nome-da-branch
+
+## descartar o commit
+git reset nome-do-arquivo <!--descarta o arquivo do commit-->
+
+ou 
+
+git reset . <!--descarta todo o commit-->
